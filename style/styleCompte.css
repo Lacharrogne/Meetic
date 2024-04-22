@@ -1,0 +1,51 @@
+*{
+    /* border: rgb(106, 255, 0) 2px solid; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    height: 100vh;  
+    background-image: url('/img/champ-tulipes-pays-bas-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+article{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 192, 203, 0.762);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+p,
+a,
+h1{
+    display: flex;
+    width: 30%;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 128);
+    width: 150px;
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Lobster', sans-serif;
+    margin-bottom: 10px;
+
+}
